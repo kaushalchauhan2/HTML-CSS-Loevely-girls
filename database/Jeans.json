@@ -1,0 +1,56 @@
+{
+    "Jeans": [
+   {
+     "Images" : "./images/17.jpg",
+     "Name" : "Ripped Straight Leg Jeans",
+     "price": "Rs.1399",
+     "rate" : "3/5"
+  },
+  
+   {
+     "Images" : "./images/18.jpg",
+     "Name" : ">Ripped Skinny Jeans",
+     "price": "Rs.1299",
+     "rate" : "5/5"
+  },
+   {
+     "Images" : "./images/19.jpg",
+     "Name" : "Trouser Pants",
+     "price": "Rs.999",
+     "rate" : "3/5"
+  },
+  
+   {
+     "Images" : "./images/20.jpg",
+     "Name" : "Carrot Jeans",
+     "price": "1199",
+     "rate" : "4/5"
+  },
+  
+   {
+     "Images" : "./images/21.jpg",
+     "Name" : "Button Skinny Pants",
+     "price": "1499",
+     "rate" : "3/5"
+  },
+   {
+     "Images" : "./images/22.jpg",
+     "Name" : "Ripped Straight Leg Jeans",
+     "price": "1399",
+     "rate" : "5/5"
+  },
+  
+  {
+    "Images" : "./images/23.jpg",
+    "Name" : "Ripped Straight Leg Jeans",
+    "price": "1399",
+    "rate" : "4/5"
+  },
+  {
+    "Images" : "./images/24.jpg",
+    "Name" : "Ripped Straight Leg Jeans",
+    "price": "1399",
+    "rate" : "4/5"
+  }
+  ]
+  }

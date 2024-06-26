@@ -1,0 +1,56 @@
+{
+    "Tshirt": [
+   {
+     "Images" : "./images/09.jpg",
+     "Name" : "T-shirt",
+     "price": "Rs.499",
+     "rate" : "3/5"
+  },
+  
+   {
+     "Images" : "./images/10.jpg",
+     "Name" : "T-shirt",
+     "price": "Rs.599",
+     "rate" : "4/5"
+  },  
+   {
+     "Images" : "./images/11.jpg",
+     "Name" : "T-shirts",
+     "price": "Rs.699",
+     "rate" : "5/5"
+  },
+  
+   {
+     "Images" : "./images/12.jpg",
+     "Name" : "T-shirts",
+     "price": "599",
+     "rate" : "4/5"
+  },
+  
+   {
+     "Images" : "./images/13.jpg",
+     "Name" : "T-shirts",
+     "price": "599",
+     "rate" : "4/5"
+  },
+   {
+     "Images" : "./images/14.jpg",
+     "Name" : "T-shirts",
+     "price": "799",
+     "rate" : "5/5"
+  },
+  
+  {
+    "Images" : "./images/15.jpg",
+    "Name" : "T-shirts",
+    "price": "599",
+    "rate" : "4/5"
+  },
+  {
+    "Images" : "./images/16.jpg",
+    "Name" : "T-shirts",
+    "price": "399",
+    "rate" : "3/5"
+  }
+  ]
+  }

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <style type="text/css">
+        #Jeans
+        {
+            width: 1000px;
+            margin-left: 300px;
+        }
+    </style>
+     <script>
+	var x = new XMLHttpRequest();
+	x.onreadystatechange = function()
+	{
+	
+		if (x.readyState == 4 && x.status == 200)
+		{
+			var js = JSON.parse(x.responseText);
+			var output="<table align='center' border='1' cellpadding='500px' cellspacing='15px'>";
+			
+			
+			for(i=0;i<js.Jeans.length;i++)
+			{
+				if (i % 3 == 0)
+					output += "<tr>";
+				output += "<td>";
+				output += "<img src='" + js.Jeans[i].Images + 
+				          "' height='150px' width='250px'/>" +
+							"</br>" +
+							"<div class='tm-yellow-gradient-bg tm-city-price-container'>" +
+							js.Jeans[i].Name + "<br/><br/>" + 
+							js.Jeans[i].price + "<br/><br/>" +
+							"</div>" +
+							js.Jeans[i].rate + "</td>";
+			}
+							document.getElementById('Jeans').innerHTML = output;
+		}
+	}
+		x.open("POST","./database/Jeans.json",true);
+		x.send();
+  
+  
+  </script>
+    
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Girls Jeans</title>
+</head>
+
+<body>
+    
+    <nav class="nav">
+        <div class="navigation container">
+            <div class="logo">
+                 <p style="font-size:45px">Lovely Girls Fashion Hub</p>
+            </div>
+
+            <div class="menu">
+                <div class="top-nav">
+                    <div class="logo">
+                         <p style="font-size:45px">Lovely Girls Fashion Hub</p>
+                    </div>
+                    <div class="close">
+                        <i class="bx bx-x"></i>
+                    </div>
+                </div>
+
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="product.html" class="nav-link">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#footer" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="#cart" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            
+
+            <div class="hamburger">
+                <i class="bx bx-menu"></i>
+            </div>
+        </div>
+    </nav>
+
+    
+	<section class="pagination">
+        <div class=" container">
+            <span><li class="nav-item">
+              <a href="product.html" class="nav-link">Two-Pieces</a>
+            </li></span>
+            <span><li class="nav-item">
+              <a href="product2.html" class="nav-link">T-shirt</a>
+            </li></span>
+            <span><li class="nav-item">
+              <a href="product3.html" class="nav-link">Jeans</a>
+            </li></span>
+            
+            <span><i class='bx bx-right-arrow-alt'></i></span>
+        
+        </section>
+	
+    <section class="section all-products" id="products">
+        <div class="top container">
+            <h1>Jeans</h1>
+            <form>
+                <select>
+                    <option value="1">Defualt Sorting</option>
+                    <option value="2">Sort By Price</option>
+                    <option value="3">Sort By Popularity</option>
+                    <option value="4">Sort By Sale</option>
+                    <option value="5">Sort By Rating</option>
+                </select>
+                <span><i class='bx bx-chevron-down'></i></span>
+            </form>
+        </div>
+
+        <div class="product-center container">
+		<div id="Jeans"></div>
+            
+        </div>
+    </section>
+
+    <section class="pagination">
+        <div class=" container">
+            <span><li class="nav-item">
+              <a href="product.html" class="nav-link">Two-Pieces</a>
+            </li></span>
+            <span><li class="nav-item">
+              <a href="product2.html" class="nav-link">T-shirt</a>
+            </li></span>
+            <span><li class="nav-item">
+              <a href="product3.html" class="nav-link">Jeans</a>
+            </li></span>
+            <span><i class='bx bx-right-arrow-alt'></i></span>
+        </div>
+    </section>
+
+
+
+    
+    <footer id="footer" class="section footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-center">
+                    <h3>EXTRAS</h3>
+                    <a href="#">Brands</a>
+                    <a href="#">Gift Certificates</a>
+                    <a href="#">Affiliate</a>
+                    <a href="#">Specials</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <div class="footer-center">
+                    <h3>INFORMATION</h3>
+                    <a href="#">About Us</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <div class="footer-center">
+                    <h3>MY ACCOUNT</h3>
+                    <a href="#">My Account</a>
+                    <a href="#">Order History</a>
+                    <a href="#">Wish List</a>
+                    <a href="#">Newsletter</a>
+                    <a href="#">Returns</a>
+                </div>
+                <div class="footer-center">
+                    <h3>CONTACT US</h3>
+                    <div>
+                        <span>
+                            Devloped By: kaushal Chauhan
+                        </span>                    
+					</div>
+                  <div>
+				  
+                        <span>
+                            (IMSC-IT-A-09)
+                        </span>                       
+                    </div>
+				    <div>
+				  
+                        <span>
+                            kaushalchauhan2338@gmail.com
+                        </span>
+                        
+                    </div>
+                    <div>
+                        <span>
+                            (+91) 8140054823
+                        </span>
+                        
+                    </div>
+                    <div>
+                        <span>
+                            &copy;copyright by Lj University
+                        </span>
+                        
+                    </div>
+					<li><a href="https://www.instagram.com/kaushal_chauhan_"><i class="fa fa-instagram"></i></a></li>
+					
+					 <li><a href="https://www.facebook.com/kaushal_chauhan"><i class="fa fa-facebook"></i></a></li>
+					 
+                </div>
+              </div>
+    </footer>
+    
+
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+   
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

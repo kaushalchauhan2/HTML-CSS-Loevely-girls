@@ -1,0 +1,57 @@
+{
+  "TwoPieces": [
+ {
+   "Images" : "./images/01.jpg",
+   "Name" : "Drawstring Pant Outfits",
+   "price": "Rs.1603",
+   "rate" : "3/5"
+},
+
+ {
+   "Images" : "./images/02.jpg",
+   "Name" : "Pocket Pant outfits",
+   "price": "Rs.1699",
+   "rate" : "5/5"
+ },
+
+ {
+   "Images" : "./images/03.jpg",
+   "Name" : "Drawstring Pant outfits",
+   "price": "Rs.1399",
+   "rate" : "4/5"
+},
+
+ {
+   "Images" : "./images/04.jpg",
+   "Name" : "Drawstring Pant outfits",
+   "price": "1299",
+   "rate" : "3/5"
+},
+
+ {
+   "Images" : "./images/05.jpg",
+   "Name" : "Lace Up Pant outfits",
+   "price": "1599",
+   "rate" : "3/5"
+},
+ {
+   "Images" : "./images/06.jpg",
+   "Name" : "Simplicity Pant outfits",
+   "price": "1199",
+   "rate" : "4/5"
+},
+
+{
+  "Images" : "./images/07.jpg",
+  "Name" : "Sequins Pant Outfits",
+  "price": "1099",
+  "rate" : "3/5"
+},
+{
+  "Images" : "./images/08.jpg",
+  "Name" : "Drawstring Pant outfits",
+  "price": "1499",
+  "rate" : "5/5"
+}
+]
+}
